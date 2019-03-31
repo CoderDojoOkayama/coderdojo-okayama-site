@@ -1,0 +1,48 @@
+$carousel-max-height: 40rem;
+
+.carousel-index {
+  z-index: 0;
+  max-height: $carousel-max-height;
+
+  .carousel-inner {
+    max-height: $carousel-max-height;
+
+    .carousel-item {
+      transition-duration: 3s;
+      max-height: $carousel-max-height;
+
+      &::before {
+       content: ' ';
+       max-height: $carousel-max-height;
+       background-color: rgba(0,0,0,.5);
+       position: absolute;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       left: 0;
+       z-index: 1;
+      }
+
+      .carousel-caption {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 100%;
+        h1 {
+          font-size: 5vw;
+        }
+        h3 {
+          font-size: 2vw;
+        }
+      }
+    }
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+    z-index: 2;
+    width: 5%;
+  }
+}

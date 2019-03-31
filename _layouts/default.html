@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | truncate: 130 }}{% endif %}">
+    <meta name="author" content="">
+
+    <title>
+      {% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}
+    </title>
+
+    <!-- OGP Settings -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | truncate: 130 }}{% endif %}" />
+
+    <!--  Facebook OGP -->
+    <meta property="fb:app_id" content="403100877166724" />
+
+    <!-- Twitter OGP -->
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="{{ site.url }}/feed.xml" />
+
+    <!-- Bootstrap Core SASS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    {% include _header.html %}
+
+    {{ content }}
+
+    {% include _footer.html %}
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+
+</html>
