@@ -112,7 +112,7 @@ layout: default
       <div class="row">
         {% assign dojos = site.data.dojos | sort: 'id' %}
         {% for dojo in dojos %}
-          <div class="col-md-3 mx-auto py-2 d-flex align-items-strech">
+          <div class="col-md-3 mx-auto mb-3 py-2 d-flex align-items-strech">
             <div class="dojo p-3 text-center">
               <a href="{{ dojo.url }}">
                 <img src="
@@ -158,6 +158,11 @@ layout: default
             </div>
           </div>
         {% endfor %}
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p><a href="//coderdojo.jp">CoderDojo Japan のページ</a>には<a href="//coderdojo.jp/#dojos">日本全国の道場一覧</a>もあります！</p>
+        </div>
       </div>
     </div>
   </section>
