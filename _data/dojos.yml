@@ -1,0 +1,46 @@
+#- id: !重複不可! 基本的に1から順に追加順で。
+#  name: !必須! Dojo名
+#  url: DojoのサイトのURL
+#  logo: Dojoのロゴ
+#  description: !必須! !30字以内! Dojoの説明
+#  tags: !多すぎNG! タグ（その道場で行う内容・言語など。）
+
+- id: 1
+  name: CoderDojo 岡山 岡南
+  url: https://new-beta.coderdojo-konan.jp
+  logo: assets/img/logos/konan-okayama.png
+  description: 毎月第3日曜日に岡山市立岡南公民館にて定期開催
+  tags:
+  - Scratch
+  - Unity
+  - Python
+  - C#
+  - Webアプリ開発
+
+- id: 2
+  name: CoderDojo 津山
+  url: https://www.facebook.com/CoderDojoTsuyama/
+  logo:
+  description: 岡山県津山市で毎月開催
+  tags:
+  - Scratch
+  - C
+  - PHP
+  - Arduino
+  - 電子工作
+
+- id: 3
+  name: CoderDojo 倉敷
+  url: https://cd-kurashiki.connpass.com/
+  logo:
+  description: 岡山県倉敷市で毎月開催
+  tags:
+  - Scratch
+  - Minecraft
+
+- id: 4
+  name: CoderDojo 吉備
+  url: https://coderdojokibi.connpass.com/
+  logo:
+  description: 岡山市立吉備公民館にて定期開催
+  tags:

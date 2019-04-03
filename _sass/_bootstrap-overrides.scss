@@ -1,0 +1,31 @@
+.btn {
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  border: none !important;
+  border-radius: 300px !important;
+}
+
+.btn-xl {
+  padding: 1rem 2rem !important;
+}
+
+.btn-primary {
+  background-color: $primary !important;
+  border-color: $primary !important;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white;
+    background-color: darken($primary, 5%) !important;
+  }
+  &:active,
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64,.5) !important;
+  }
+}
+.border-primary {
+  border-color: $primary !important;
+}
+.border-secondary {
+  border-color: $secondary !important;
+}

@@ -1,6 +1,10 @@
 ---
 ---
 
+@import 'variables';
 @import 'global';
 @import 'index';
 @import 'navbar';
+@import 'footer';
+@import 'bootstrap-overrides';
+@import '../vendor/bootstrap/scss/bootstrap.scss';

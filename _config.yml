@@ -1,6 +1,10 @@
 title: CoderDojo Okayama Web
 email: example@coderdojo-okayama.example
 
+auther: CoderDojo in Okayama Group
+
+default_logo_path: assets/img/logos/CoderDojo-Logo.svg
+
 # TODO: fix this later
 description: >- # this means to ignore newlines until "baseurl:"
   CoderDojo Okayama の総合サイトです。岡山県内の道場に関する情報や新規立ち上げのノウハウ提供などを行います。
