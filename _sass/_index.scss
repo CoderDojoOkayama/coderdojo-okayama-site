@@ -72,6 +72,16 @@ $carousel-max-height: 40rem;
       max-width: 8rem;
       margin-bottom: 1rem;
     }
+
+    .sns-icons {
+      list-style: none;
+      padding: 0;
+
+      .sns-icon {
+        display: inline-block;
+      }
+    }
+
     .tags {
       list-style: none;
       padding: 0;

@@ -4,6 +4,10 @@
 #  logo: Dojoのロゴ
 #  description: !必須! !30字以内! Dojoの説明
 #  tags: !多すぎNG! タグ（その道場で行う内容・言語など。）
+#  twitter_id: Twitter の ID
+#  facebook_id: facebook.com/<この部分>
+#  instagram_id: Instagram の ID
+#
 
 - id: 1
   name: CoderDojo 岡山 岡南
@@ -16,6 +20,9 @@
   - Python
   - C#
   - Webアプリ開発
+  twitter_id: CoderDojoKonan_
+  facebook_id: CoderDojo.Konan
+  instagram_id: CoderDojo.Konan.Okayama
 
 - id: 2
   name: CoderDojo 津山
@@ -41,6 +48,4 @@
 - id: 4
   name: CoderDojo 吉備
   url: https://coderdojokibi.connpass.com/
-  logo:
   description: 岡山市立吉備公民館にて定期開催
-  tags:
