@@ -1,108 +1,11 @@
-$carousel-max-height: 40rem;
 #index-root {
-  .carousel-index {
-    z-index: 0;
-    max-height: $carousel-max-height;
+  background-color: #fafafa;
 
-    .carousel-inner {
-      max-height: $carousel-max-height;
-
-      .carousel-item {
-        transition-duration: 3s;
-        max-height: $carousel-max-height;
-
-        &::before {
-         content: ' ';
-         max-height: $carousel-max-height;
-         background-color: rgba(0,0,0,.5);
-         position: absolute;
-         top: 0;
-         right: 0;
-         bottom: 0;
-         left: 0;
-         z-index: 1;
-        }
-
-        .carousel-caption {
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-
-          padding-left: 10%;
-          padding-right: 10%;
-          width: 100%;
-          h1 {
-            font-size: 5vw;
-          }
-          h3 {
-            font-size: 2vw;
-          }
-        }
-      }
-    }
-
-    .carousel-control-prev, .carousel-control-next {
-      z-index: 2;
-      width: 5%;
-    }
-  }
-
-  section {
-    hr {
-      display: block;
-      max-width: 50px;
-      border-color: $white;
-    }
-    .section-green {
-      background-color: #9acd32 !important;
-      color: $white;
-      a {
-        color: #006400 !important;
-      }
-    }
-  }
-
-  .dojo {
-    width: 100%;
-    color: $gray-800;
-    background-color: $white;
-    border-radius: 5px;
-
-    img.dojo-logo {
-      max-width: 8rem;
-      margin-bottom: 1rem;
-    }
-
-    .sns-icons {
-      list-style: none;
-      padding: 0;
-
-      .sns-icon {
-        display: inline-block;
-      }
-    }
-
-    .tags {
-      list-style: none;
-      padding: 0;
-
-      .tag {
-        color: $white;
-        display: inline-block;
-        padding: .2rem;
-        margin-bottom: .5rem;
-        font-size: .9rem;
-        border-radius: 5px;
-
-        background-color: $primary;
-        p {
-          margin: 0;
-        }
-      }
-    }
-
-    a {
-      color: $primary
-    }
+  main {
+    .container {
+      margin: 1.5rem auto;
+      padding: 1.5rem 2.5rem;
+      background-color: #fff;
+    }    
   }
 }
