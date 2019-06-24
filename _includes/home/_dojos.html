@@ -1,0 +1,66 @@
+<section id="dojos" class="main-section has-text-centered is-hidden">
+  <div class="container is-fluid">
+    <h1 class="title">県内のCoderDojo</h1>
+    <hr class="my-4">
+    <p>
+      県内各地の道場一覧です！<br>
+    </p>
+    <p>
+      この一覧に掲載されているのは CoderDojo Okayama グループに所属している Dojo のみであり、 <br>
+      県内すべての Dojo が掲載されているわけでありません。<br>
+      <a href="https://zen.coderdojo.com/find">CoderDojo Zen</a> から登録されている世界の全ての CoderDojo を確認できます。
+    </p>
+    <p>
+      参加する方法を知りたい場合は、各Dojoのリンクをクリックしてみてください！
+    </p>
+
+    <ul class="dojos">
+      {% assign dojos = site.data.dojos | sort: 'id' %}
+      {% for dojo in dojos %}
+      <li class="dojo">
+        <a href="{{ dojo.url }}">
+          <img src="
+          {% if dojo.logo %}
+            {{ dojo.logo }}
+          {% else %}
+            {{ site.default_logo_path }}
+          {% endif %}
+          " alt="「{{ dojo.name }}」のロゴ" class="dojo-logo">
+          <p>{{ dojo.name }}</p>
+        </a>
+        <p>{{ dojo.description }}</p>
+        <ul class="sns-icons">
+          {% if dojo.twitter_id %}
+            <li class="sns-icon" target="_new">
+              <a href="//twitter.com/{{ dojo.twitter_id }}">
+                <i class="fab fa-twitter-square fa-2x"></i>
+              </a>
+            </li>
+          {% endif %}
+          {% if dojo.facebook_id %}
+            <li class="sns-icon" target="_new">
+              <a href="//facebook.com/{{ dojo.facebook_id }}">
+                <i class="fab fa-facebook-square fa-2x"></i>
+              </a>
+            </li>
+          {% endif %}
+          {% if dojo.instagram_id %}
+            <li class="sns-icon" target="_new">
+              <a href="//instagram.com/{{ dojo.instagram_id }}">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+            </li>
+          {% endif %}
+        </ul>
+        <ul class="tags">
+            {% for tag in dojo.tags %}
+              <li class="tag">
+                <p>{{ tag }}</p>
+              </li>
+            {% endfor %}
+          </ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

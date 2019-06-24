@@ -1,11 +1,88 @@
 #index-root {
-  background-color: #fafafa;
+  section.hero {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('/assets/img/index/carousel/1.jpg') center center / cover no-repeat;
+    background-size: cover;
+    .hero-body {
+      margin: 3rem 0;
+    }
+  }
 
   main {
     .container {
       margin: 1.5rem auto;
-      padding: 1.5rem 2.5rem;
-      background-color: #fff;
-    }    
+      padding: 1.5rem 0;
+    }
+
+    strong {
+      color: #fff;
+      font-size: 1.2rem;
+    }
+
+    hr {
+      max-width: 150px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    section.main-section {
+      padding: 3rem 0;
+    }
+
+    .dojos {
+      list-style: none;
+      display: inline-block;
+
+      .dojo {
+        display: inline-block;
+        
+        width: 18rem;
+        height: 24rem;
+
+        margin: .5rem;
+        padding: 1rem 0;
+
+        vertical-align: top;
+        overflow: hidden;
+
+        p {
+          margin-bottom: .5rem;
+        }
+
+        img.dojo-logo {
+          max-width: 8rem;
+          margin-bottom: 1rem;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .sns-icons {
+          list-style: none;
+          padding: 0;
+          margin-bottom: .3rem;
+    
+          .sns-icon {
+            display: inline-block;
+          }
+        }
+    
+        .tags {
+          list-style: none;
+          display: inline-block;
+          padding: 0;
+    
+          .tag {
+            display: inline-block;
+            padding: .2rem;
+            margin-bottom: .5rem;
+            font-size: .9rem;
+            border-radius: 5px;
+            
+            p {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
   }
 }
