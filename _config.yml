@@ -1,7 +1,7 @@
 title: CoderDojo Okayama Web
 email: example@coderdojo-okayama.example
 
-auther: CoderDojo in Okayama Group
+auther: CoderDojo Okayama Group
 
 default_logo_path: assets/img/logos/CoderDojo-Logo.svg
 
@@ -19,11 +19,12 @@ plugins:
   - jemoji
 
 
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
