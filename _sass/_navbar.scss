@@ -2,19 +2,27 @@
   h1.navbar-item {
     
     font-size: 1.5rem;
-    padding: 1.5rem 1rem 1rem;
+    padding: 1rem;
+
+    &:hover {
+      background-color: transparent
+    }
   }
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 769px) {
     h1.navbar-item {
-      font-size: 1rem;
-      padding: 1rem 1rem 1rem;
+      font-size: 1.2rem;
+      padding: 1rem;
     }
 
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+    // position: fixed;
+    // top: 0;
+    // right: 0;
+    // left: 0;
+    // z-index: 1030;
+
+    &:hover {
+      background-color: transparent
+    }
   }
 
 }
