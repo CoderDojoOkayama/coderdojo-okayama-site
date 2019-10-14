@@ -11,6 +11,13 @@
 
   &.is-colored {
     background-color: $primary;
+    color: #fff;
+    a.navbar-item {
+      color: #fff;
+      &:hover {
+        color: #3273dc;
+      }
+    }
   }
 
   @media screen and (max-width: 769px) {
