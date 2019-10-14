@@ -27,7 +27,7 @@
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="{{ site.url }}/feed.xml" />
 
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
   </head>
   <body>
     {% include _header.html %}
@@ -38,9 +38,9 @@
 
 
     <!-- JS -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="../vendor/jquery-cbiframesize-js/jquery.cbiframesize.min.js"></script>
-    <script src="assets/scripts/main.js"></script>
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/jquery-cbiframesize-js/jquery.cbiframesize.min.js"></script>
+    <script src="/assets/scripts/main.js"></script>
     {% if page.scripts %}
     {% for script in page.scripts %}
       <script src="{{ script }}"></script> 
