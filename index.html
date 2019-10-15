@@ -1,35 +1,14 @@
 ---
 layout: default
+scripts: 
+  - assets/scripts/index.js
 ---
 
 <div id="index-root">
 
 <section class="hero is-primary is-large">
   <div class="hero-head">
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-      <div class="container">
-        <div class="navbar-brand">
-          <h1 class="navbar-item has-text-white">CoderDojo Okayama</h1>
-
-          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navBurger">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-        
-        <div id="navBurger" class="navbar-menu">
-          <div class="navbar-start">
-          </div>
-          
-          <div class="navbar-end">
-            <a class="navbar-item">
-              Home
-            </a>
-          </div>
-        </div>
-      </div>
-    </nav>
+    {% include _navbar.html %}
   </div>
 
   <div class="hero-body">

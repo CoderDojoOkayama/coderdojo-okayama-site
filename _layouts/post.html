@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div id="post-root">
+
+{% include _navbar.html %}
+
+<main class="section">
+  <div class="container">
+    <p class="has-text-light">作成: {{ page.date | date: "%Y年 %m月 %d日" }}</p>
+    <h1 class="title">{{ page.title }}</h1>
+    {% if page.desc %}
+    <h2 class="subtitle">{{ page.desc }}</h2>
+    {% endif %}
+
+    <hr>
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        このサイトソースコードは全て <a href="https://github.com/CoderDojoOkayama/coderdojo-okayama-site" target="_new">GitHub</a> にて
+        <a href="http://opensource.org/licenses/mit-license.php">MITライセンス</a> のもとに公開されています。
+      </p>
+      <p>
+        The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>,
+        and published on <a href="https://github.com/CoderDojoOkayama/coderdojo-okayama-site" target="_new">GitHub</a>.
+      </p>
+    </div>
+</footer>
+
+</div>
