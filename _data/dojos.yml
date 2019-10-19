@@ -12,7 +12,7 @@
 - id: 1
   name: CoderDojo 岡山 岡南
   url: https://new-beta.coderdojo-konan.jp
-  logo: assets/img/logos/konan-okayama.png
+  logo: assets/img/logos/konan.png
   description: 毎月第3日曜日に岡山市立岡南公民館にて定期開催
   tags:
   - Scratch
@@ -39,7 +39,7 @@
 - id: 3
   name: CoderDojo 倉敷
   url: https://cd-kurashiki.connpass.com/
-  logo:
+  logo: 
   description: 岡山県倉敷市で毎月開催
   tags:
   - Scratch
