@@ -7,8 +7,11 @@
 #  twitter_id: Twitter の ID
 #  facebook_id: facebook.com/<この部分>
 #  instagram_id: Instagram の ID
+#  event_api: 
+#    api: APIの種類 [doorkeeper, connpass]
+#    id: [connpass: series_id, doorkeeper: http://[ここの部分].doorkeeper.jp/]
 #
-
+---
 - id: 1
   name: CoderDojo 岡山 岡南
   url: https://www.coderdojo-konan.jp
@@ -23,6 +26,9 @@
   twitter_id: CoderDojoKonan_
   facebook_id: CoderDojo.Konan
   instagram_id: CoderDojo.Konan.Okayama
+  event_api:
+    api: doorkeeper
+    id: coderdojo-konan
 
 - id: 2
   name: CoderDojo 津山
@@ -35,6 +41,9 @@
   - PHP
   - Arduino
   - 電子工作
+  event_api:
+    api: connpass
+    id: coderdojo-konan
 
 - id: 3
   name: CoderDojo 倉敷
