@@ -23,6 +23,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
+  - README.md
   - node_modules
   - vendor/bundle/
   - vendor/cache/
