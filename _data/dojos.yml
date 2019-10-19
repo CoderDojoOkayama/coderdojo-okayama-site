@@ -1,7 +1,7 @@
 #- id: !重複不可! 基本的に1から順に追加順で。
 #  name: !必須! Dojo名
 #  url: DojoのサイトのURL
-#  logo: Dojoのロゴ
+#  logo: Dojoのロゴのパス 'assets/img/logos/{ここの部分}'
 #  description: !必須! !30字以内! Dojoの説明
 #  tags: !多すぎNG! タグ（その道場で行う内容・言語など。）
 #  twitter_id: Twitter の ID
@@ -12,7 +12,7 @@
 - id: 1
   name: CoderDojo 岡山 岡南
   url: https://new-beta.coderdojo-konan.jp
-  logo: assets/img/logos/konan.png
+  logo: konan.png
   description: 毎月第3日曜日に岡山市立岡南公民館にて定期開催
   tags:
   - Scratch
@@ -39,7 +39,7 @@
 - id: 3
   name: CoderDojo 倉敷
   url: https://cd-kurashiki.connpass.com/
-  logo: 
+  logo: kurashiki.jpg
   description: 岡山県倉敷市で毎月開催
   tags:
   - Scratch
