@@ -1,78 +1,121 @@
 ---
-- dojo_id: 1
-  title: 'CoderDojo 岡山 岡南 #25'
-  starts_at: '2019-10-20T04:30:00.000Z'
-  ends_at: '2019-10-20T07:00:00.000Z'
-  venue_name: 岡山市立岡南公民館 大講義室
-  address: 岡山市南区若葉町22-16
-  url: https://coderdojo-konan.doorkeeper.jp/events/97417
-- dojo_id: 2
+- dojo:
+    id: 2
+    name: CoderDojo 津山
+    url: https://www.facebook.com/CoderDojoTsuyama/
   title: 'CoderDojo 岡山 岡南 #24'
   starts_at: '2019-08-18T13:30:00+09:00'
   ends_at: '2019-08-18T16:00:00+09:00'
   venue_name: 岡山市立岡南公民館
   address: 岡山県 岡山市 南区若葉町22-16
   url: https://konan-coderdojo.connpass.com/event/143102/
-- dojo_id: 2
+  limit: 
+  entry: 0
+- dojo:
+    id: 2
+    name: CoderDojo 津山
+    url: https://www.facebook.com/CoderDojoTsuyama/
   title: 'CoderDojo 岡山 岡南 #23'
   starts_at: '2019-07-21T13:30:00+09:00'
   ends_at: '2019-07-21T16:00:00+09:00'
   venue_name: 岡山市立岡南公民館
   address: 岡山県 岡山市 南区若葉町22-16
   url: https://konan-coderdojo.connpass.com/event/138297/
-- dojo_id: 2
+  limit: 
+  entry: 0
+- dojo:
+    id: 2
+    name: CoderDojo 津山
+    url: https://www.facebook.com/CoderDojoTsuyama/
   title: 'CoderDojo 岡山 岡南 #22'
   starts_at: '2019-06-16T13:30:00+09:00'
   ends_at: '2019-06-16T16:00:00+09:00'
   venue_name: 岡山市立岡南公民館
   address: 岡山県 岡山市 南区若葉町22-16
   url: https://konan-coderdojo.connpass.com/event/133847/
-- dojo_id: 2
+  limit: 18
+  entry: 8
+- dojo:
+    id: 2
+    name: CoderDojo 津山
+    url: https://www.facebook.com/CoderDojoTsuyama/
   title: 'CoderDojo 岡山 岡南 #21'
   starts_at: '2019-04-21T13:30:00+09:00'
   ends_at: '2019-04-21T16:00:00+09:00'
   venue_name: 岡山市立岡南公民館
   address: 岡山県 岡山市 南区若葉町22-16
   url: https://konan-coderdojo.connpass.com/event/126897/
-- dojo_id: 2
+  limit: 16
+  entry: 9
+- dojo:
+    id: 2
+    name: CoderDojo 津山
+    url: https://www.facebook.com/CoderDojoTsuyama/
   title: 'CoderDojo 岡山 岡南 #20 1時間拡大SP！'
   starts_at: '2019-03-17T13:30:00+09:00'
   ends_at: '2019-03-17T16:30:00+09:00'
   venue_name: 岡山市立岡南公民館
   address: 岡山県 岡山市 南区若葉町22-16
   url: https://konan-coderdojo.connpass.com/event/123805/
-- dojo_id: 2
+  limit: 19
+  entry: 10
+- dojo:
+    id: 2
+    name: CoderDojo 津山
+    url: https://www.facebook.com/CoderDojoTsuyama/
   title: 'CoderDojo 岡山 岡南 #19'
   starts_at: '2019-02-24T14:00:00+09:00'
   ends_at: '2019-02-24T16:00:00+09:00'
   venue_name: 岡山市立岡南公民館
   address: 岡山県 岡山市 南区若葉町22-16
   url: https://konan-coderdojo.connpass.com/event/119524/
-- dojo_id: 2
+  limit: 19
+  entry: 8
+- dojo:
+    id: 2
+    name: CoderDojo 津山
+    url: https://www.facebook.com/CoderDojoTsuyama/
   title: 'CoderDojo 岡山 岡南 #18'
   starts_at: '2018-12-16T14:00:00+09:00'
   ends_at: '2018-12-16T16:00:00+09:00'
   venue_name: 岡山市立岡南公民館
   address: 岡山県 岡山市 南区若葉町22-16
   url: https://konan-coderdojo.connpass.com/event/110941/
-- dojo_id: 2
+  limit: 20
+  entry: 10
+- dojo:
+    id: 2
+    name: CoderDojo 津山
+    url: https://www.facebook.com/CoderDojoTsuyama/
   title: 'CoderDojo 岡山 岡南 #17'
   starts_at: '2018-11-18T14:00:00+09:00'
   ends_at: '2018-11-18T16:00:00+09:00'
   venue_name: 岡山市立岡南公民館
   address: 岡山県 岡山市 南区若葉町22-16
   url: https://konan-coderdojo.connpass.com/event/106570/
-- dojo_id: 2
+  limit: 18
+  entry: 9
+- dojo:
+    id: 2
+    name: CoderDojo 津山
+    url: https://www.facebook.com/CoderDojoTsuyama/
   title: 'CoderDojo 岡山 岡南 #16'
   starts_at: '2018-10-21T14:00:00+09:00'
   ends_at: '2018-10-21T16:00:00+09:00'
   venue_name: 岡山市立岡南公民館
   address: 岡山県 岡山市 南区若葉町22-16
   url: https://konan-coderdojo.connpass.com/event/103100/
-- dojo_id: 2
+  limit: 18
+  entry: 5
+- dojo:
+    id: 2
+    name: CoderDojo 津山
+    url: https://www.facebook.com/CoderDojoTsuyama/
   title: 'CoderDojo 岡山 岡南 #15'
   starts_at: '2018-09-16T14:00:00+09:00'
   ends_at: '2018-09-16T16:00:00+09:00'
   venue_name: 岡山市立岡南公民館
   address: 岡山県 岡山市 南区若葉町22-16
   url: https://konan-coderdojo.connpass.com/event/98574/
+  limit: 21
+  entry: 10

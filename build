@@ -1,0 +1,2 @@
+bundle exec ruby ./fetch_latest_events.rb
+bundle exec jekyll build
