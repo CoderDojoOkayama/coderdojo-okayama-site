@@ -17,6 +17,8 @@ def fetch_events()
 
   unless data.empty?
     output(data)
+  else
+    delete_file   
   end 
 end
 
@@ -32,7 +34,7 @@ def get_events(api, id)
       end
     when 'connpass' then
       begin
-        response = rest_client(api, id).get params: {:series_id => 3786, :order => 2}
+        response = rest_client(api, id).get params: {:series_id => id, :order => 2}
 
         json = JSON.parse response.body
       rescue RestClient::ExceptionWithResponse => e
@@ -108,6 +110,10 @@ def dojos
   file = File.expand_path('./_data/dojos.yml')
   dojos = open(file, 'r') { |f| YAML.load(f) }
   dojos
+end
+
+def delete_file
+  YAML.dump(nil, File.open(File.expand_path('./_data/events.yml'), 'w'))
 end
 
 fetch_events()

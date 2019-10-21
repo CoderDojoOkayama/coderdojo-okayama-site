@@ -41,9 +41,6 @@
   - PHP
   - Arduino
   - 電子工作
-  event_api:
-    api: connpass
-    id: coderdojo-konan
 
 - id: 3
   name: CoderDojo 倉敷
@@ -53,8 +50,14 @@
   tags:
   - Scratch
   - Minecraft
+  event_api:
+    api: connpass
+    id: 5751
 
 - id: 4
   name: CoderDojo 吉備
   url: https://coderdojokibi.connpass.com/
   description: 岡山市立吉備公民館にて定期開催
+  event_api:
+    api: connpass
+    id: 7653
