@@ -124,7 +124,7 @@
         width: 20rem;
 
         margin: .5rem;
-        padding: 1rem 0;
+        padding: 1rem 0 .5rem 0;
 
         overflow: hidden;
 
@@ -232,9 +232,9 @@
 
 
         .dojo-name {
+          width: 100%;
           z-index: 3;
 
-          position: relative;
         }
 
         p {
