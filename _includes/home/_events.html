@@ -12,6 +12,7 @@
     </p>
 
     {% assign events = site.data.events %}
+    {% if events %}
     <ul class="events">
       {% for event in events %}
         <li class="event">
@@ -44,6 +45,12 @@
         </li>
       {% endfor %}
     </ul>
-
+    {% else %}
+    <div class="no-events">
+      <h1>\ Coming Soon /</h1>
+      <h1>現在公開されている Dojo セッションはありません。</h1>
+      <p>新しい Dojo セッションが公開されるまでしばらくお待ちください！</p>
+    </div>
+    {% endif %}
   </div>
 </section>
