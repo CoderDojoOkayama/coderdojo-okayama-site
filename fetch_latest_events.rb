@@ -77,7 +77,7 @@ def format(api, data, dojo)
       end
     when 'connpass' then
       data['events'].each do |e|
-        if Date.parse(e['started_at']) > Date.today then
+        # if Date.parse(e['started_at']) > Date.today then
           edata = {
             "dojo" => {
               "id" => dojo['id'],
@@ -96,7 +96,7 @@ def format(api, data, dojo)
 
           fdata.push edata
         end
-      end
+      # end
   end
 
   fdata

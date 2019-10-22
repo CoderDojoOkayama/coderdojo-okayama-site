@@ -5,6 +5,18 @@
     .hero-body {
       margin: 3rem 0;
     }
+
+    .hero-foot {
+      li {
+        font-size: 1.2rem;
+        &.is-active {
+          font-weight: bolder;
+        }
+        a:hover {
+          border-bottom-color: transparent;
+        }
+      }
+    }
   }
 
   main {
